@@ -35,10 +35,12 @@ header>a {
     display: none;
     font-size: 2rem;
 }
-header ul {
+header nav ul {
     list-style: none;
     display: flex;
+    transition: all 0.6 ease-out;
 }
+
 a:hover {
     filter: brightness(50%);
 }
@@ -92,7 +94,23 @@ main img {
 .content button:hover {
     filter: brightness(120%);
 }
-
+#navBtn {
+    display: none;
+}
+.navBtn:checked~ul{
+    left:0;
+    margin-top: 15px;
+    z-index: 3;
+    transition: all 0.5s ease-out;
+}
+.navBtn:checked~ul li {
+    opacity: 1;
+    transition: all 0.8s ease-out;
+    padding: auto;
+}
+.navBtn:checked {
+    
+}
 @media(max-width:950px){
     .content h1 {
         font-size: 3rem;
@@ -101,9 +119,18 @@ main img {
 @media(max-width:760px){
     header ul {
         flex-direction: column;
-        position: relative;
-        display: none;
-        left: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    header ul li {
+        opacity: 0;
+        text-align: center;
+        background: white;
+        padding:6px 0;
+        border-bottom: 2px solid RGBA(193,193,193,0.8);
+    }
+    header ul li a {
+        width: 100%;
     }
     .icon-menu-bar {
         display: initial;
