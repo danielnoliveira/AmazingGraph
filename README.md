@@ -4,7 +4,7 @@
     <img src="https://trello-attachments.s3.amazonaws.com/590fa896d2d25e50583de620/874x512/2bc76fc9373587c9d5ca571d19530719/4435_1.png" alt="Logo" width="250" height="150">
   </a>
 
-  <h3 align="center">Amazing Graph</h3>
+  <h3 align="center">Amazing Graph - DESAFIO COMPLETO :heavy_check_mark:</h3>
 
   <p align="center">
     Landing page to create amazing graphics
@@ -16,7 +16,7 @@
   </p>
 </p>
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8d1d940f-ce38-4a93-82ff-905daf86962f/deploy-status)](https://app.netlify.com/sites/competent-goldwasser-1f5991/deploys)
 
 # Welcome :)
 <a href="https://devchallenge.now.sh/"> DevChallenge</a> allow you to improve your skills!
